@@ -1,4 +1,7 @@
 # ToDo.JS
 To do list with Native(Pure) JavaScript(ES6 OOP);
 
-MVC pattern
+MVC pattern;
+
+npm install;
+npm start;
