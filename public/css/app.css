@@ -94,14 +94,14 @@ header {
     align-items: center;
     padding: 0 1rem;
     color: white;
-    background-color: #f0db4f;
+    background-color: #192a56;
     text-align: center;
     text-transform: uppercase;
 }
 
 header h1 {
     display: inline-block;
-    color: #323330;
+    color: #fff;
     margin: 1rem auto;
 }
 
@@ -179,7 +179,7 @@ header h1 {
 }
 
 #todo-form input:focus {
-    border: 1px solid #f0db4f;
+    border: 1px solid #192a56;
 }
 
 #todo-form button {
