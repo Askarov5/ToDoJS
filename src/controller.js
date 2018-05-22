@@ -22,9 +22,8 @@ class Controller {
     }
 
     toggleTodo({ id, completed }) {
-        const todo = this.model.updateItem(id, { completed });
-
-        this.view.toggleItem(todo);
+        const item = this.model.updateItem(id, { completed });
+        this.view.toggleItem(item);
     }
 
     editTodo({ id, title }) {

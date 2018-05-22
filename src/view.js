@@ -26,15 +26,13 @@ class View  extends EventEmitter {
         const checkbox = item.querySelector('.chackbox');
         const editButton = item.querySelector('button.edit');
         const removeButton  = item.querySelector('button.remove');
+        
         if(checkbox) {
             checkbox.addEventListener('change', this.handleToggle.bind(this));
         };
-        if(editButton) {
-            editButton.addEventListener('click', this.handleEdit.bind(this));
-        };
-        if(removeButton) {
-            removeButton.addEventListener('click', this.handleRemove.bind(this));
-        };
+        
+        editButton.addEventListener('click', this.handleEdit.bind(this));
+        removeButton.addEventListener('click', this.handleRemove.bind(this));
 
         return item;
     }
